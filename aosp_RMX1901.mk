@@ -21,6 +21,10 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# FireDroid Maintainer Flags
+FIREDROID_MAINTAINER := м∂_ιѕяαƒιℓ
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 # Viper
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
