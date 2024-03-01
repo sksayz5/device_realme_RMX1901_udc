@@ -4,26 +4,18 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common FireDroid stuff
+# Inherit some common Pixel Experience stuff
 
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
-EXTRA_UDFPS_ANIMATIONS := true
-TARGET_ENABLE_BLUR := true
-TARGET_USES_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-
-# FireDroid Maintainer Flags
-FIREDROID_MAINTAINER := м∂_ιѕяαƒιℓ
-CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Viper
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
