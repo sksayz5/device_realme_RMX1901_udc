@@ -9,4 +9,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     genesis_RMX1901-userdebug \
-	genesis_RMX1901-eng
+    genesis_RMX1901-eng
