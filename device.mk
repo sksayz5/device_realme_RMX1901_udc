@@ -506,7 +506,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor \
-    vendor.qti.hardware.display.config-V5-ndk
+    vendor.qti.hardware.display.config-V5-ndk \
+    android.media.audio.common.types-V2-cpp
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
