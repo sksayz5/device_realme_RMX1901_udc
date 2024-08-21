@@ -18,8 +18,6 @@ $(call inherit-product, vendor/aospa/config/common_full_phone.mk)
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit from the AOSPA configuration.
-$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
